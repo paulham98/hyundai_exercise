@@ -1,0 +1,66 @@
+{
+  "name": "Hyundai_Dashboard",
+  "version": "0.1.1",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve --mode local",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "axois": "0.0.1-security",
+    "bootstrap": "^5.0.2",
+    "bootstrap-vue": "^2.21.2",
+    "core-js": "^3.6.5",
+    "echarts": "^5.1.2",
+    "echarts-gl": "^2.0.8",
+    "lodash": "^4.17.21",
+    "sass": "^1.37.5",
+    "swiper": "^6.8.1",
+    "v-charts": "^1.19.0",
+    "vue": "^2.6.11",
+    "vue-charts": "^0.2.1",
+    "vue-echarts": "^6.0.0",
+    "vue-echarts-directive": "^0.5.0",
+    "vue-jquery": "^1.0.6",
+    "vue-router": "^3.5.2",
+    "vue-scroll-shadow": "^0.1.0",
+    "vue-selector": "0.0.1",
+    "vue-slick": "^1.1.16",
+    "vue-slick-carousel": "^1.0.6",
+    "vue-table-dynamic": "^0.4.6",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/composition-api": "^1.1.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "jquery": "^3.6.0",
+    "sass-loader": "^10.2.0",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
